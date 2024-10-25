@@ -1,0 +1,39 @@
+[
+	{
+		"externalRweSet" : [],
+		"function" : "depositpayment()",
+		"functionSelector" : "47aafee8",
+		"readSet" : 
+		[
+			"msg.sender",
+			"msg.value"
+		],
+		"writeSet" : 
+		[
+			"0"
+		]
+	},
+	{
+		"externalRweSet" : [],
+		"function" : "verifyDeposit(address,uint256)",
+		"functionSelector" : "0332a324",
+		"readSet" : 
+		[
+			"0"
+		],
+		"writeSet" : []
+	},
+	{
+		"externalRweSet" : [],
+		"function" : "receivePayment(address,uint256)",
+		"functionSelector" : "5259b9ab",
+		"readSet" : 
+		[
+			"0"
+		],
+		"writeSet" : 
+		[
+			"0"
+		]
+	}
+]
