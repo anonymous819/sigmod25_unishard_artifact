@@ -1,5 +1,5 @@
 
-provides an overall explanation of the code-level implementation for understanding the core logic of Unishard. It also includes instructions on how to build and run Unishard on a local machine.
+This document provides an overall explanation of the code-level implementation for understanding the core logic of Unishard. It also includes instructions on how to build and run Unishard on a local machine.
 
 # Brief Protocol Description
 
