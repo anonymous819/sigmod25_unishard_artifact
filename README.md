@@ -46,7 +46,7 @@ The major functions and processing flow in each file are as follows.
 ## coordinator/coordinatorHandler.go
 - Start(): The coordinator’s block proposer initiates the main processing loop. 
     - It generates a block every 0.25 seconds and initiates BFT consensus by proposing the block to other nodes. 
-    - It contains a message handling loop that processes various types of messages, among which the worker blocks are particularly important. Upon receiving a worker block in the second loop, it first verifies the safety of the local snapshot within the received worker block. If the snapshot is safe, it adds it to the SCT. It then stores the cross-shard transactions and contract code contained in the received worker block.
+    - It contains a message handling loop that processes various types of messages, among which the worker blocks are particularly important. Upon receiving a worker block, it first verifies the safety of the local snapshot within the received worker block. If the snapshot is safe, it adds it to the SCT. It then stores the cross-shard transactions and contract code contained in the received worker block.
 
 
 ## coordinator/coordinator.go
